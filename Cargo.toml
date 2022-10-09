@@ -1,0 +1,10 @@
+[package]
+name = "notion-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+notion-api = { path = "../notion-api" }
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4.0.10", features = ["derive"] }
+owo-colors = "3"
